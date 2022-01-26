@@ -10,16 +10,16 @@ let duit = `*────── 「 DONATE 」 ──────*
 Hai 👋
 Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
 ┌〔 Donasi • Emoney 〕
-├🏧 081351047727 (OVO/Dana/GoPay)
-├📍 https://saweria.co/ilmanhdyt
+├ •GOPAY : 089525518325
+├ •DANA : 081285866502
 └────
 Berapapun donasi kalian akan sangat berarti 👍
-
+“Setiap orang berada di bawah naungan sedekahnya (pada hari kiamat) hingga diputuskan di antara manusia atau ia berkata: “Ditetapkan hukuman di antara manusia.” Yazid berkata: “Abul Khair tidak pernah melewati satu haripun melainkan ia bersedekah padanya dengan sesuatu, walaupun hanya sepotong kue atau bawang merah atau seperti ini.” (HR. Al-Baihqi, Al-Hakim dan Ibnu Khuzaimah).
 Arigatou!
 
 Contact person Owner:
-wa.me/6181351047727 (Owner)`
-let message = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/ca517a39ce85c8a4c0479.jpg' }}, { upload: conn.waUploadToServer })
+wa.me/6289525518325 (Owner)`
+let message = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/Donasijpg-01-26' }}, { upload: conn.waUploadToServer })
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
          hydratedTemplate: {
@@ -29,14 +29,14 @@ let message = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/fil
            hydratedButtons: [{
              urlButton: {
                displayText: '🏧 Saweria',
-               url: 'https://saweria.co/ilmanhdyt'
+               url: 'tidak tersedia'
              }
 
            },
                {
              callButton: {
                displayText: 'Telkomsel',
-               phoneNumber: '+62 813-5104-7727'
+               phoneNumber: '+62 812-8586-6502'
              }
            },           
                {
